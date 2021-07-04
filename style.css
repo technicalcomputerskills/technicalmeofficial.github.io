@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif !important;
+    /* overflow: hidden; */
+}
+header{
+    background: url(Images/bg1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.logo .Ubunt{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    top: 10px;
+}
+.logo h5{
+    position: relative;
+    top: 10px;
+    font-family: 'Ubuntu', sans-serif !important;
+    color: #fff;
+}
+ul{
+    /* background: rebeccapurple; */
+    height: 100%;
+    line-height: 70px;
+}
+ul li{
+    list-style: none;
+    margin: 0 30px;
+}
+ul li a{
+    color: #fff;
+    /* background: darkblue; */
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: gold;
+}
+ul li .active-1{
+    padding: 5px 0;
+    border-bottom: 2px solid rgb(255, 191, 28);
+    color: gold;
+}
+.top-header{
+    background: rgba(0,0,0,.2);
+    display: flex;
+    height: 70vh;
+}
+.top-header .context-box{
+    position: relative;
+    width: 50%;
+    height: 50px;
+    padding: 250px 0;
+    margin: 0 40px;
+    /* background: red; */
+}
+.top-header .img-bx{
+    width: 50%;
+    /* background: rebeccapurple; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-header .img-bx img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+h1{
+    color: #fff;
+}
+.Intro{
+    /* background: red; */
+    position: relative;
+    margin: 12% 0;
+}
+.Intro .in-tro{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.Intro .in-tro h1{
+    font-size: 45px;
+    margin: 20px 0;
+}
+.Intro .in-tro h1 span{
+    color: rgb(255, 191, 28);
+}
+.Intro .in-tro p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Intro .in-tro button{
+    background: transparent;
+    color: #fff;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.Intro .in-tro .active{
+    background: transparent;
+    color: rgb(43, 31, 0);
+    padding: 10px 25px;
+    border: 2px solid rgb(255, 191, 28);
+    background: rgb(255, 191, 28);
+    border-radius: 5px;
+    margin: 0 5px;
+    /* transition: 0.2s ease-in-out; */
+    cursor: pointer;
+}
+.Intro .in-tro button:hover{
+    background: transparent;
+    color: rgb(43, 31, 0);
+    padding: 10px 25px;
+    border: 2px solid rgb(255, 191, 28);
+    background: rgb(255, 191, 28);
+    border-radius: 5px;
+    margin: 0 5px;
+    /* transition: 0.2s ease-in-out; */
+    cursor: pointer;
+}
+.Intro .in-tro .active:hover{
+    background: transparent;
+    color: #fff;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 710px){
+    /* nav{
+        background: red;
+        height: 60%;
+        display: block;
+    }
+    nav .logo{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    nav .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    nav ul{
+        /* background: #fff; */
+        /* height: 200px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    nav ul li{
+        margin: 0 auto;
+        padding: 0;
+        line-height: 50px;
+    }
+    nav ul li a{
+        color: #000;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    } */ 
+    header{
+        background: url("/Images/bg.jpg");
+    }
+}
+@media only screen and (max-width: 1024px){
+    header{
+        background: url("/Images/bg2.jpg");
+        background-size: cover;
+    }
+    nav .logo{
+        /* background: rgb(107, 104, 104); */
+        width: 155px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0 20px;
+    }
+    nav .logo img{
+        height: 50px;
+        width: 50px;
+    }
+    nav ul{
+        position: relative;
+        margin: 0 30px;
+    }
+    .Intro .in-tro{
+        width: 90%;
+    }
+}
+/* Source Code Section */
