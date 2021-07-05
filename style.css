@@ -158,19 +158,33 @@ h1{
     margin: 0 5px;
     cursor: pointer;
 }
+.burger{
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;  
+    display: none;
+}
+.burger .line{
+    width: 33px;
+    background: #fff;
+    height: 4px;
+    margin: 5px 3px;
+}
 @media only screen and (max-width: 710px){
     header{
         width: 100%;
     }
     nav{
         background: rgba(0, 0, 0, 0.7);
-        height: 60%;
+        height: 70px;
         width: 100%;
     }
     nav .logo{
         position: absolute;
         top: 15px;
         left: 120px;
+        opacity: 0;
     }
     nav .logo img{
         width: 100px;
@@ -189,6 +203,7 @@ h1{
         /* background: #fff; */
         height: 100%;
         width: 100%;
+        opacity: 0;
         /* display: flex; */
         /* justify-content: center; */
         /* margin: 0 auto; */
@@ -206,6 +221,19 @@ h1{
     }
     header .top-header .context-box{
         background-color: red;
+    }
+    .Intro{    
+        position: relative;
+        top: 30px;
+    }
+    .Intro .in-tro h1{
+        font-size: 32px;
+    }
+    .burger{
+        display: block;
+    }
+    header .h-resp{
+        height: 65px;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -234,5 +262,6 @@ h1{
     .Intro .in-tro{
         width: 90%;
     }
+
 }
 /* Source Code Section */
