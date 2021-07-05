@@ -263,7 +263,7 @@ h1{
 
 }
 /* Source Code Section */
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 370px){
     .Intro .in-tro h1{
         font-size: 25px;
     }
