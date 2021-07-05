@@ -1,5 +1,5 @@
 burger = document.querySelector('.burger');
-navbar = document.querySelector('.h-nav');
+navbar = document.querySelector('.h-resp');
 logo = document.querySelector('.logo');
 menu = document.querySelector('.MenuBar');
 
