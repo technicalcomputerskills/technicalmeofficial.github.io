@@ -1,7 +1,7 @@
-burger = document.querySelectorAll('.burger');
-navbar = document.querySelectorAll('.h-nav');
-logo = document.querySelectorAll('.logo');
-menu = document.querySelectorAll('.MenuBar');
+burger = document.querySelector('.burger');
+navbar = document.querySelector('.h-nav');
+logo = document.querySelector('.logo');
+menu = document.querySelector('.MenuBar');
 
 burger.addEventListener('click', ()=>{
     logo.classList.toggle('.v-resp');

@@ -184,7 +184,6 @@ h1{
         position: absolute;
         top: 15px;
         left: 120px;
-        opacity: 0;
     }
     nav .logo img{
         width: 100px;
@@ -193,20 +192,14 @@ h1{
     nav .MenuBar{
         width: 1000px;
         height: 70%;
-        /* background-color: darkblue; */
         position: relative;
         top: 100px;
         right: 100px;
         text-align: center;
     }
     nav ul{
-        /* background: #fff; */
         height: 100%;
         width: 100%;
-        opacity: 0;
-        /* display: flex; */
-        /* justify-content: center; */
-        /* margin: 0 auto; */
     }
     nav ul li{
         margin: 0 auto;
@@ -232,8 +225,11 @@ h1{
     .burger{
         display: block;
     }
-    header .h-resp{
+    .h-resp{
         height: 65px;
+    }
+    .v-resp{
+        opacity: 0;
     }
 }
 @media only screen and (max-width: 1024px){
