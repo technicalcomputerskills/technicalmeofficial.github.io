@@ -174,7 +174,6 @@ h1{
 @media only screen and (max-width: 710px){
     header{
         width: 100%;
-        background: url('Images/bg2.jpg');
     }
     nav{
         background: rgba(0, 0, 0, 0.7);
@@ -262,3 +261,8 @@ h1{
 
 }
 /* Source Code Section */
+@media only screen and (max-with: 340px){
+    .Intro .in-tro h1{
+        font-size: 27px;
+    }
+}
